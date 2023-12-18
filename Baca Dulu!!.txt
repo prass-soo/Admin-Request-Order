@@ -1,0 +1,15 @@
+*akun Admin
+username : admin
+password : admin
+
+*akun Admin
+username : admin 2
+password : 123123
+
+- Ekstrak File didalam htdocs
+- Open Xampp Arahin ke phpmyadmin
+- create database namanya admin
+- import file .sql kedalam database admin
+- kalo berhasil langsung open project lewat admin apache xampp
+- ubah url nya, arahin ke folder admin di dalem htdocs
+- username password bisa diintip di phpmyadmin, kalo mau daftar juga bisa

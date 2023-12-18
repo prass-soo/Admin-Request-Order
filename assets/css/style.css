@@ -1,0 +1,52 @@
+/* index */
+/* Tambahkan gaya kustom tambahan di sini */
+.container-main {
+    margin-top: 20px;
+}
+
+.search-form {
+    margin-bottom: 20px;
+}
+
+.container-main .table th,
+.container-main .table td {
+    text-align: center;
+}
+
+.images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.images p {
+    margin: 0;
+    cursor: pointer;
+}
+
+.option {
+    display: flex;
+    gap: 5px;
+}
+
+.print-e {
+    display: none;
+}
+
+@media print {
+    .print-e {
+        display: table-cell !important;
+    }
+
+    .search-form,
+    .option {
+        display: none;
+    }
+}
+
+.badge-lg {
+    font-size: 0.8rem;
+    /* Sesuaikan ukuran sesuai kebutuhan Anda */
+    padding: 0.4rem 0.4rem;
+    /* Sesuaikan padding sesuai kebutuhan Anda */
+}
